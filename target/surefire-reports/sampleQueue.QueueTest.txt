@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: sampleQueue.QueueTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.338 s <<< FAILURE! - in sampleQueue.QueueTest
+singleObjectOfEnqueueTest  Time elapsed: 0.057 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at sampleQueue.QueueTest.singleObjectOfEnqueueTest(QueueTest.java:57)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "<parameter1>" is null
+	at sampleQueue.QueueTest.lambda$1(QueueTest.java:57)
+	at sampleQueue.QueueTest.singleObjectOfEnqueueTest(QueueTest.java:57)
+
+twoObjectOfQueueTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at sampleQueue.QueueTest.twoObjectOfQueueTest(QueueTest.java:71)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "<parameter1>" is null
+	at sampleQueue.QueueTest.lambda$2(QueueTest.java:71)
+	at sampleQueue.QueueTest.twoObjectOfQueueTest(QueueTest.java:71)
+

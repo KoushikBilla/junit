@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sampleQueue.QueueTest" time="0.338" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1\target\test-classes;C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1\target\classes;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\DELL\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\DELL\Downloads\eclipse-java-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire17014331822528333231\surefirebooter7388621205123445244.jar C:\Users\DELL\AppData\Local\Temp\surefire17014331822528333231 2022-12-06T21-37-37_201-jvmRun1 surefire9573999995416534844tmp surefire_013720022319483743794tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1\target\test-classes;C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1\target\classes;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\DELL\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Users\DELL\Downloads\eclipse-java-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire17014331822528333231\surefirebooter7388621205123445244.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="C:\Users\DELL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\DELL\Downloads\junit-testing-KoushikBilla-main1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\DELL\Downloads\eclipse-java-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/DELL/Downloads/eclipse-java-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/DELL/Downloads/eclipse-java-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\DELL\AppData\Local\Programs\Python\Python38;C:\Users\DELL\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\nodejs\;C:\Program Files\PostgreSQL\13\data;C:\Program Files\Git\cmd;C:\Users\DELL\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python38\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\PostgreSQL\13\data;C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;;C:\Users\DELL\Downloads\eclipse-java-2021-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="threeObjectOfQueueTest" classname="sampleQueue.QueueTest" time="0.233"/>
+  <testcase name="removeAllMethodTest" classname="sampleQueue.QueueTest" time="0"/>
+  <testcase name="toStringMethodTest" classname="sampleQueue.QueueTest" time="0.001"/>
+  <testcase name="singleObjectOfEnqueueTest" classname="sampleQueue.QueueTest" time="0.057">
+    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;java.util.NoSuchElementException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at sampleQueue.QueueTest.singleObjectOfEnqueueTest(QueueTest.java:57)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "<parameter1>" is null
+	at sampleQueue.QueueTest.lambda$1(QueueTest.java:57)
+	at sampleQueue.QueueTest.singleObjectOfEnqueueTest(QueueTest.java:57)
+]]></failure>
+  </testcase>
+  <testcase name="isEmptyMethodShouldGiveTrueOnQueueInit2" classname="sampleQueue.QueueTest" time="0.006"/>
+  <testcase name="isEmptyMethodShouldGiveTrueOnQueueInit" classname="sampleQueue.QueueTest" time="0"/>
+  <testcase name="maximumTest" classname="sampleQueue.QueueTest" time="0.002"/>
+  <testcase name="printTheSizeOfQueue" classname="sampleQueue.QueueTest" time="0.013"/>
+  <testcase name="twoObjectOfQueueTest" classname="sampleQueue.QueueTest" time="0">
+    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;java.util.NoSuchElementException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at sampleQueue.QueueTest.twoObjectOfQueueTest(QueueTest.java:71)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "<parameter1>" is null
+	at sampleQueue.QueueTest.lambda$2(QueueTest.java:71)
+	at sampleQueue.QueueTest.twoObjectOfQueueTest(QueueTest.java:71)
+]]></failure>
+  </testcase>
+</testsuite>
